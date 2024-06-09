@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Photo Gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="gallery" class="gallery-container">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/photo1.avif" alt="Photo 1">
+                    <div class="hover-details">Exploration</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/photo2.avif" alt="Photo 2">
+                    <div class="hover-details">Mountain</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/photo3.jpg" alt="Photo 3">
+                    <div class="hover-details">Tech Design</div>
+                </div>
+            </div>
+            <div class="full-size-viewer">
+                <img id="full-size-image" src="" alt="Full Size Image">
+                <button id="close-button">Close</button>
+            </div>
+        </section>
+
+        <section id="about" class="about-container">
+            <h2>About This Gallery</h2>
+            <p>This photo gallery showcases some of the best photos from our collection. Each photo has a unique story and captures a special moment.</p>
+        </section>
+
+        <section id="contact" class="contact-container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to purchase any of the photos, please <a href="mailto:info@example.com">email us</a>.</p>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
